@@ -1,0 +1,41 @@
+body{
+    margin:0;
+    font-family:'Open Sans';
+}
+.duci{
+    width:auto;
+    height:auto;
+    padding-bottom:20px;
+    background:#eee;
+    padding-top:1px;
+}
+.duci h1{
+    font-size:30px;
+    font-weight: 200 !important;
+    margin: 72px 0 0 !important;
+    padding: 1px !important;
+    text-align:center;
+    color:#777;
+}
+.duci img{
+    margin:5px auto 0;width:100%;
+}
+.slideItem{
+    display:none;
+}
+.balls{
+    width:auto;
+    text-align:center;
+    height:40px;
+    color:#47BAC1;
+    font-size:13px;
+    margin:10px auto 40px;
+}
+.balls i{
+    padding:0px 2px;
+    cursor:pointer;
+    transition:all 0.4s ease;
+}
+.balls .fas{
+    transform:scale(1.3);
+}
