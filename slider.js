@@ -3,8 +3,10 @@ var interval = 3000;
 let slides, length, i, ballsDiv, balls;
 slides = document.getElementsByClassName("slideItem");
 ballsDiv = document.querySelector(".balls");
+
 slides[0].style.display = "block";
 sessionStorage.curentSlide = 1;
+
 const slideShowInterval = setInterval(playSlide, interval);
 
 
@@ -22,8 +24,7 @@ balls[0].classList.add("fas");
 
 function playSlide(){
 
-    if(sessionStorage.curentSlide){}
-    else{sessionStorage.curentSlide = 0}
+    if(sessionStorage.curentSlide){}else{sessionStorage.curentSlide = 0}
     cur = sessionStorage.curentSlide;
     if(cur == (slides.length - 1)){
         sessionStorage.curentSlide = 0;
